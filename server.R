@@ -36,7 +36,6 @@ server <- function(input, output, session) {
   
   
   #1) Load the dataset as a list of dataframes
-  source("config.R")
   data <- import_beetle_data(env.deploy)
   
   

@@ -16,7 +16,10 @@
 #' *****************************************************************************
 
 # Set the working directory
-setwd("~/GitHub/Beetle-biodiversity-on-Swiss-green-roofs")
+setwd("~/work/Beetle-biodiversity-on-Swiss-green-roofs")
+
+#Install any necessary packages
+source("install.R")
 
 # Run the config script
 source("config.R")

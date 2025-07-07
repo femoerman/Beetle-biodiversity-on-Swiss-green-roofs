@@ -7,11 +7,8 @@ CONFIG_SUCCESS <- FALSE
 # Set the deployment environment
 env.deploy="posit"
 
-#Install any necessary packages
-source("install.R")
-
 # Load any secrets
-source("secret_keys.R")
+source("/secrets/secret_keys.R")
 
 #Read the environmental variables, if they don't exist yet
 if(env.deploy=="posit"){

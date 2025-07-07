@@ -22,16 +22,16 @@ if (!require(REDCapR)) install.packages('REDCapR')
 if (!require(thematic)) install.packages('thematic')  
 
 
-install.packages("tidyverse") # the tidyverse: dplyr, ggplot,...
-install.packages("shiny") # shiny core
-install.packages("rnaturalearth")
-install.packages("rnaturalearthdata")
-install.packages("ggspatial")
-install.packages("rgdal")
-install.packages("rjson")
-install.packages("httr")
-install.packages("writexl")
-install.packages("shinyWidgets")
-install.packages("readxl")
-install.packages("REDCapR")
-install.packages("thematic")
+# install.packages("tidyverse") # the tidyverse: dplyr, ggplot,...
+# install.packages("shiny") # shiny core
+# install.packages("rnaturalearth")
+# install.packages("rnaturalearthdata")
+# install.packages("ggspatial")
+# install.packages("rgdal")
+# install.packages("rjson")
+# install.packages("httr")
+# install.packages("writexl")
+# install.packages("shinyWidgets")
+# install.packages("readxl")
+# install.packages("REDCapR")
+# install.packages("thematic")
